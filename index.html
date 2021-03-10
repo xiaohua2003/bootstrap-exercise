@@ -45,7 +45,7 @@
                             <div class="media">
                                 <img src="img/logo.png" class="img-fluid col-sm-6" alt="logo-image" >
                                <div class="media-body align-self-center col-sm-6">
-                                  <a  href="#reserve-table" class="btn btn-sm btn-warning btn-block" role="button"> Reserve Table</a>
+                                  <a  href="#reserve-table" class="btn btn-sm btn-warning btn-block" role="button" data-toggle="tooltip" data-placement="bottom" data-html="true"   title="Or Call us at  <br><strong>+852 12345678</strong>"> Reserve Table</a>
                                </div>        
                            </div>                                
                    </div> 
@@ -205,7 +205,14 @@
            </div>
         </div>
     </footer>
-
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
