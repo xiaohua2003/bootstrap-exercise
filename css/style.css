@@ -32,3 +32,20 @@ body{
 .navbar-dark{
     background-color: #512DA8;
 }
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 330px;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 330px;
+}
+#myCarousel{
+    margin-top:10%;
+}
