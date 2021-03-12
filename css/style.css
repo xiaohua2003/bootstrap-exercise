@@ -47,5 +47,6 @@ body{
   height: 330px;
 }
 #myCarousel{
-    margin-top:10%;
+    margin-top:5%;
+    margin-bottom:5%
 }
