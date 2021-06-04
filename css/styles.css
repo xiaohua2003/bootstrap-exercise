@@ -8,8 +8,14 @@
   padding: 50px 0px;
   border-bottom: 1px ridge;
   min-height: 400px;
+  color: black;
 }
-
+.main-text {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  padding-left: 30%;
+}
 .footer {
   background-color: #8ab6d6;
   margin: 0px auto;
@@ -20,7 +26,7 @@
   margin: 0px auto;
   padding: 70px 30px;
   background-color: white;
-  color: black;
+  color: blacl;
 }
 
 .address {

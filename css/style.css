@@ -2,6 +2,9 @@
   margin: 0px auto;
   padding: 0px auto;
 }
+.main-page {
+  margin-top: 4%;
+}
 .location {
   margin-top: 8%;
 }
@@ -46,4 +49,10 @@ body {
 #myCarousel {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+.btn-send {
+  background-color: #1eae98;
+}
+.btn-send:hover {
+  background-color: #8ad6bf;
 }
